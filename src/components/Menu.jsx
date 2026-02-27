@@ -141,24 +141,6 @@ const Menu = () => {
           )}
         </div>
       </div>
-
-      {/* Footer Branding */}
-      <footer className="mt-20 px-6 md:px-24 py-12 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-6">
-        <p className="text-text-main/50 font-medium">
-          Made with ❤️ and 🌿 by Healthy Kitchen
-        </p>
-        <div className="flex gap-6 text-xl">
-          <span className="cursor-pointer hover:scale-110 transition-transform">
-            📸
-          </span>
-          <span className="cursor-pointer hover:scale-110 transition-transform">
-            🐦
-          </span>
-          <span className="cursor-pointer hover:scale-110 transition-transform">
-            🎵
-          </span>
-        </div>
-      </footer>
     </div>
   );
 };
